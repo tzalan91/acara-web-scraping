@@ -45,7 +45,7 @@ def main():
         return jsonify(l_prices)
 
     # Starting the app
-    app.run(host='localhost', port=5000)
+    app.run(host='0.0.0.0', port=5000)
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
